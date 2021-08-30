@@ -1,0 +1,59 @@
+.noDeco{
+    list-style: none;
+    font-style: italic;
+    display: inline;
+    text-align: center;
+}
+body{
+    background-color: whitesmoke;
+    line-height: 150%;
+}
+p{
+    text-align: center;
+}
+h1{
+    text-align: center;
+}
+h2{
+    text-align:center;
+}
+header{
+    width: auto;
+    text-align: center;
+    background-color: lightgrey;
+    padding: 2%;
+}
+h3{
+    text-decoration: underline;
+}
+.Wrapper{
+    display: grid;
+    width: 100%;
+    height: 100%;
+    grid-template: repeat(2,1fr)/repeat(2,1fr);
+    gap: 5px;
+}
+.Grid1{
+    background-color: grey;
+    color: lightgrey;
+    grid-column-start: 1;
+    grid-row-start: 1;
+}
+.Grid2{
+    background-color: grey;
+    color: lightgrey;
+    grid-column-start: 2;
+    grid-row-start: 1;
+}
+.Grid3{
+    background-color: grey;
+    color: lightgrey;
+    grid-column-start: 1;
+    grid-row-start: 2;
+}
+.Grid4{
+    background-color: grey;
+    color: lightgrey;
+    grid-column-start: 2;
+    grid-row-start: 2;
+}
